@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="formulario.css" rel="stylesheet" type="text/css" />
+    <title>Formulario Nuevo Estudiante</title>
+</head>
+<body>
+
+    <section>
+        <form class="formulario_estudiante">
+            <label for="student_id">Student Code (ID):</label>
+            <input type="text" id="student_id" name="student_id" placeholder="e.g., S001">
+            
+            <label for="full_name">Full Name:</label>
+            <input type="text" id="full_name" name="full_name" placeholder="John Doe">
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="john.doe@example.com">
+            
+            <label for="github">GitHub Link:</label>
+            <input type="url" id="github" name="github" placeholder="https://github.com/username">
+            
+            <label for="photo">Photo URL:</label>
+            <input type="url" id="photo" name="photo" placeholder="https://example.com/photo.jpg">
+            
+            <label for="description">Description:</label>
+            <textarea id="description" name="description" rows="3" placeholder="Brief description about the student..."></textarea>
+    
+            <div style="display: flex; justify-content: flex-end; gap: 10px;">
+                <button type="button">Cancel</button>
+                <button type="submit">Save Student</button>
+            </div>
+        </form>
+    </section>
+
+    
+    
+    <footer></footer>
+    
+</body>
+</html>
